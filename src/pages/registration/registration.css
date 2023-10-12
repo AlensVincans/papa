@@ -1,0 +1,129 @@
+.formContainer {
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3%;
+}
+
+.formWrapper {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background: #F8F8F8;
+    border-radius: 27px;
+    margin-top: 20px;
+    box-shadow: 1px 2px 9px 3px #888888;
+}
+
+.formWrapper .logo {
+    padding-top: 3%;
+}
+
+.formWrapper .title {
+    color: #1a1a1a;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-inline: 20px;
+}
+
+.name input,
+.phone input,
+.email input,
+.password input {
+    width: 400px;
+    padding: 15px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 7px;
+    background: #FFF;
+    border: none;
+}
+
+.name input::placeholder,
+.phone input::placeholder,
+.email input::placeholder,
+.password input::placeholder {
+    color: rgba(119, 119, 119, 0.30);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.name img,
+.phone img,
+.email img,
+.password img {
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+}
+
+.checkboxContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    align-self: center;
+}
+
+.checkboxContainer p {
+    color: rgba(26, 26, 26, 0.50);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 7%;
+}
+
+button {
+    display: flex;
+    width: 400px;
+    padding: 15px 172px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 7px;
+    background: #035afc;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+}
+
+p {
+    color: rgba(26, 26, 26, 0.50);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+p .link {
+    color: #035afc;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
